@@ -18,11 +18,13 @@ window.addEventListener("load", function () {
 
     employeeId = $("id").value;
     employeeName = $("name").value;
+    employeeExt = $("ext").value
     employeeEmail = $("email").value;
     employeeDepartment = $("department").value;
 
     console.log(`ID: ${employeeId}`);
     console.log(`Name: ${employeeName}`);
+    console.log(`Extension: ${employeeExt}`);
     console.log(`Email: ${employeeEmail}`);
     console.log(`Department: ${employeeDepartment}`);
   });
